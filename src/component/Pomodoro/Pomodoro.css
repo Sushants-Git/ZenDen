@@ -115,18 +115,37 @@
   color: #fff;
   color: white;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.pop-up p span{
+.pop-up p span {
   background-color: rgba(0, 0, 0, 0.623);
   padding: 2px 10px;
   border-radius: 15px;
 }
 
-.close{
+.close {
   position: absolute;
   right: 20px;
   opacity: 0.5;
   cursor: pointer;
+}
+
+.pop-up .first {
+  font-weight: bolder;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.music {
+  font-size: 18px;
+}
+
+.music span {
+  display: inline-block;
+  margin-bottom: 10px;
 }

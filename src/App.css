@@ -1,0 +1,146 @@
+.nav {
+  position: fixed;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.22) 31.16%,
+    rgba(255, 255, 255, 0.06) 135.87%
+  );
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.nav p {
+  margin: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.storage {
+  width: 100%;
+  height: 100%;
+  background: url(./assets/backgroundImage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.storage-container {
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0.4) 0.01%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  width: 648px;
+  height: 388px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.storage-container {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.client-storage form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.file-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.file-name label {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.file-name input {
+  border: none;
+  border-radius: 29px;
+  background: linear-gradient(
+    199deg,
+    rgba(0, 0, 0, 0.4) -32.81%,
+    rgba(0, 0, 0, 0.1) 168.41%
+  );
+  padding: 5px 20px;
+  font-family: inherit;
+  color: #fff;
+  line-height: 1;
+  font-size: 15px;
+}
+
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: none;
+  font-weight: bolder;
+  margin-right: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.browse input {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.cta-storage {
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: none;
+  font-weight: bolder;
+  margin-right: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.server-storage{
+  margin-top: 20px;
+}
+
+.server-storage a{
+  text-decoration: none;
+  color: white;
+}
+
+.a-container a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
