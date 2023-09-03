@@ -12,7 +12,7 @@ function App() {
     let type = getType(pdfUpload.type);
     const pdfRef = ref(storage, `resume/${name}.${type} ${v4()}`);
     uploadBytes(pdfRef, pdfUpload).then(() => {
-      alert("Resume Uploaded");
+      alert("File Uploaded");
     });
 
     function getType(type) {
