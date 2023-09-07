@@ -57,8 +57,8 @@ function App() {
               <ServerStorage pageRefresh={pageRefresh} />
             </div>
           </div>
+          <span style={{fontWeight: "bolder"}}>The storage functionality has been removed, otheriwse my firebase will blow up :)</span>
         </div>
-        <span style={{fontWeight: "bolder"}}>The storage functionality has been removed, otheriwse my firebase will blow up :)</span>
       )}
     </>
   );
