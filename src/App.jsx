@@ -58,6 +58,7 @@ function App() {
             </div>
           </div>
         </div>
+        <span style={{fontWeight: "bolder"}}>The storage functionality has been removed, otheriwse my firebase will blow up :)</span>
       )}
     </>
   );
